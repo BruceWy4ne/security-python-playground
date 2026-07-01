@@ -98,6 +98,7 @@ def genpass(a, b, c, d, l):
         if allowed_char != "":
             password += random.choice(allowed_char)
             x = len(password)
+    print("Generated Password: ")
     print("".join(random.sample(password, len(password))))
 
 
