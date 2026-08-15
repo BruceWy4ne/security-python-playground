@@ -2,7 +2,7 @@ import psycopg
 from collections import Counter
 
 conn = psycopg.connect(
-    "dbname=security_lab_test user=postgres password=Sheru@sql4567 host=localhost")
+    "dbname=security_lab_test user=postgres password=PASSSWORD host=localhost")
 
 cur = conn.cursor()
 
