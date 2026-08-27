@@ -38,7 +38,7 @@ class VulnerabilityResponse(BaseModel):
     description: Optional[str] = None
 
 
-database_url = "postgresql+psycopg://postgres:Sheru%40sql4567@localhost:5432/vulnerability_tracker"
+database_url = "postgresql+psycopg://postgres:PASS@localhost:5432/vulnerability_tracker"
 
 engine = create_engine(database_url)
 
